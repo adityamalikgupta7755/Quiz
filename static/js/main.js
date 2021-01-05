@@ -1,42 +1,42 @@
 const quizData = [{
-        question: "How old is florin?",
-        a: '10',
-        b: '17',
-        c: '26',
-        d: '110',
-        correct: 'c'
-    },
-    {
-        question: "what is the most used programming language in 2019?",
-        a: 'java',
-        b: 'C',
-        c: 'Python',
-        d: 'JavaScript',
-        correct: 'd'
-    },
-    {
-        question: "who is he President of US?",
-        a: 'Florin Pop',
-        b: 'Donald Trump',
-        c: 'Ivan Saldano',
-        d: 'Mihal Andrel',
+        question: `What is a correct syntax to output "Hello World" in Python?`,
+        a: `p("Hello World")`,
+        b: 'print("Hello World")',
+        c: 'echo "Hello World"',
+        d: 'p("Hello World");',
         correct: 'b'
     },
     {
-        question: "what does HTML stand for?",
-        a: 'HyperText Markup Language',
-        b: 'Cascading Style Sheet',
-        c: 'HighText Markup Language',
-        d: 'HyperText Makeup Language',
-        correct: 'a'
+        question: "How do you insert COMMENTS in Python code?",
+        a: '/*This is comment*/',
+        b: '//This is comment',
+        c: '*/This is comment*/',
+        d: '#This is comment',
+        correct: 'd'
     },
     {
-        question: "what year was JavaScript Launched?",
-        a: '1996',
-        b: '1995',
-        c: '1994',
-        d: 'no of these',
+        question: "Which one is NOT a legal variable name?",
+        a: 'my-var',
+        b: '_myvar',
+        c: 'myVar',
+        d: 'My_var',
+        correct: 'b'
+    },
+    {
+        question: "How do you create a variable with the numeric value 5?",
+        a: 'x = 5',
+        b: 'x = float(5)',
+        c: 'x = int(5)',
+        d: 'all of above correct',
         correct: 'd'
+    },
+    {
+        question: "What is the correct file extension for Python files?",
+        a: '.pty',
+        b: '.python',
+        c: '.py',
+        d: 'no of these',
+        correct: 'c'
     }
 ]
 const questionEl = document.getElementById('question')

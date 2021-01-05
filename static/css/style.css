@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../../static/pic/night.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    min-height: 95vh;
+}
+
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 10px;
+    color: ivory;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+h1 {
+    color: ivory;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: #8e44ad;
+    color: white;
+    font-family: inherit;
+    display: block;
+    font-size: 1.1rem;
+    border: none;
+    width: 100%;
+    padding: 1.1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6a208a;
+}
